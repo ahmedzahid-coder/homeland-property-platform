@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-header">
+                <div class="logo">
+                    <a href="#"><strong>Homeland<span class="text-danger">.</span></strong></a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buy.html">Buy</a></li>
+                        <li><a href="Rent.html">Rent</a></li>
+                        <li><a href="Properties.html">Properties</a></li>
+                        <li><a href="blogs.html">Blog</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <main>
+
+
+
+        <!-- Hero bilkul alag section hai, header ke bahar -->
+        <section class="hero">
+
+            <!-- Prev Arrow -->
+            <button class="arrow prev">&#8592;</button>
+
+            <div class="hero-content">
+                <span class="badge">FOR SALE</span>
+                <h1>625 S. BERENDO ST</h1>
+                <p class="price">$1,000,500</p>
+                <button>SEE DETAILS</button>
+            </div>
+
+            <!-- Next Arrow -->
+            <button class="arrow next">&#8594;</button>
+
+
+            <section class="property-search">
+                <div class="search-container">
+
+                    <div class="search-items">
+                        <label for="list-types">Listing Types</label>
+                        <select name="list-types" id="list-types" class="form-control d-block rounded-0">
+                            <option value="">Condo</option>
+                            <option value="">Commercial Building</option>
+                            <option value="">Land Property</option>
+                        </select>
+                    </div>
+
+                    <div class="search-items">
+                        <label for="offer-types">Offer Type</label>
+                        <select name="offer-types" id="offer-types" class="form-control d-block rounded-0">
+                            <option value="">For Sale</option>
+                            <option value="">For Rent</option>
+                            <option value="">For Lease</option>
+                        </select>
+                    </div>
+
+                    <div class="search-items">
+                        <label for="select-city">Select City</label>
+                        <select name="select-city" id="select-city" class="form-control d-block rounded-0">
+                            <option value="">New York</option>
+                            <option value="">Brooklyn</option>
+                            <option value="">London</option>
+                            <option value="">Japan</option>
+                            <option value="">Philippines</option>
+                        </select>
+                    </div>
+
+                    <div class="search-items">
+                        <button>Search</button>
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+        </section>
+
+        <div class="search-container-2">
+            <div class="icons-search">
+                <!-- Grid View (4 squares wala) -->
+                <i class="fa-solid fa-grip"></i>
+                <!-- List View (lines wala) -->
+                <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="search-filter">
+                <p style="opacity: 1;">All</p>
+                <p style="opacity: 1;">|</p>
+                <p style="opacity: 0.7;">Rent</p>
+                <p style="opacity: 0.7;">|</p>
+                <p style="opacity: 0.7;">Sale</p>
+                <select name="sort-by" id="sort-by" class="form-control d-block rounded-0">
+                    <option value="">Sort By</option>
+                    <option value="">Price Descending</option>
+                    <option value="">Price Ascending</option>
+                </select>
+            </div>
+        </div>
+
+
+        <section class="property-list">
+
+            <div class="property-listing">
+                <div class="property-listing-boxes">
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-1.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>625 S. Berendo St</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                625 S. Berendo St, Los Angeles, CA
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>7,000</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-2.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>871 Crenshaw Blvd</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                1 New York Ave, Warners Bay, NSW 2282
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>1,620</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-3.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>853 S Lucerne Blvd</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                853 S Lucerne Blvd Unit 101 Los Angeles, CA 90005
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>5,500</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="property-listing">
+                <div class="property-listing-boxes">
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-4.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>625 S. Berendo St</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                625 S. Berendo St, Los Angeles, CA
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>7,000</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-5.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>871 Crenshaw Blvd</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                1 New York Ave, Warners Bay, NSW 2282
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>1,620</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-6.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>853 S Lucerne Blvd</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                853 S Lucerne Blvd Unit 101 Los Angeles, CA 90005
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>5,500</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="property-listing">
+                <div class="property-listing-boxes">
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-7.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>625 S. Berendo St</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                625 S. Berendo St, Los Angeles, CA
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>7,000</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-8.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>871 Crenshaw Blvd</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                1 New York Ave, Warners Bay, NSW 2282
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>1,620</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="property-card">
+                        <div class="card-image">
+                            <img src="images/property-img-9.jpg" alt="">
+                            <div class="card-badges">
+                                <span class="badge-sale">Sale</span>
+                                <span class="badge-rent">Rent</span>
+                            </div>
+                            <button class="card-heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-content">
+                            <h3>853 S Lucerne Blvd</h3>
+                            <p class="card-address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                853 S Lucerne Blvd Unit 101 Los Angeles, CA 90005
+                            </p>
+                            <p class="card-price">$2,265,500</p>
+                            <div class="card-details">
+                                <span>BEDS <strong>2+</strong></span>
+                                <span>BATHS <strong>2</strong></span>
+                                <span>SQ FT <strong>5,500</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="pages-num">
+                <p class="active">1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <span>...</span>
+                <p>10</p>
+            </div>
+
+        </section>
+
+        <section class="Why Chose Us">
+
+            <div class="why-chose-us">
+                <div class="text-center">
+                    <h2>WHY CHOOSE US?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores quisquam saepe
+                        architecto
+                        error corporis aliquam.</p>
+                </div>
+                <div class="row">
+
+                    <!-- Box 1 -->
+                    <div class="why-box">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <h3>Research Suburbs</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure qui natus perspiciatis
+                            ex
+                            odio molestia.</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+
+                    <!-- Box 2 -->
+                    <div class="why-box">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-house-circle-check"></i>
+                        </div>
+                        <h3>Sold Houses</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure qui natus perspiciatis
+                            ex
+                            odio molestia.</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+
+                    <!-- Box 3 -->
+                    <div class="why-box">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Security Priority</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure qui natus perspiciatis
+                            ex
+                            odio molestia.</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>ABOUT HOMELAND</h4>
+                <div class="footer-line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque,
+                    consequatur id ratione, et non dignissimos culpa?</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>NAVIGATIONS</h4>
+                <div class="footer-line"></div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Buy</a></li>
+                        <li><a href="#">Rent</a></li>
+                        <li><a href="#">Properties</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>FOLLOW US</h4>
+                <div class="footer-line"></div>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2026 All rights reserved | This template is made with
+                <i class="fa-solid fa-heart" style="color: #e74c3c;"></i> by Ahmed Marketer
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
